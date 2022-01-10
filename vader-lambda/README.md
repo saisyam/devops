@@ -9,7 +9,7 @@ $ pip3 install --target ./packages vaderSentiment
 Use the following commands to create the deploy package:
 
 ```
-$ cd packages
+$ cd packagesf 
 $ zip -r ../vader-lambda-deployment.zip .
 $ cd ..
 $ zip -g vader-lambda-deployment.zip lambda_function.py
